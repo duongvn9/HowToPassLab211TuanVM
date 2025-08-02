@@ -1,26 +1,27 @@
 package program;
 
-import java.util.Scanner;
-
+/**
+ * @author pc
+ */
 public class Main {
 
     public static void main(String[] args) {
+        // Step 1: Display menu
         DisplayUtils.displayMenu();
+
+        // Step 2: Perform function based on the selected option
         int choice = InputUtils.inputChoice("Your choice: ");
 
         switch (choice) {
-            case 1:
+            case 1 -> // Process Addition
                 ProcessMatrix.processAddOrSubtract("+");
-                break;
-            case 2:
+            case 2 -> // Process Subtraction
                 ProcessMatrix.processAddOrSubtract("-");
-                break;
-            case 3:
+            case 3 -> // Process MUltiplication
                 ProcessMatrix.processMultiplication();
-                break;
-            case 4:
+            case 4 -> // Exit
                 System.exit(0);
-                break;
         }
+
     }
 }

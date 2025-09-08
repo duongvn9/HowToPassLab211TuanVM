@@ -51,7 +51,7 @@ Thực ra, nếu làm đúng ý, đúng form, đúng yêu cầu của thầy th�
 
 - **Thầy Tuấn** có cách kiểm tra với từng người là **khác nhau**.
 - Có những bài thầy **không đọc code**, mà chỉ xem cách bạn làm, hỏi để quyết định có **accept** hay không (nhất là các bài 175).
-- Đôi khi **kết quả ra đúng** cũng chưa chắc đã được chấm nếu không giải thích được cách làm.
+- Đôi khi **kết quả ra đúng** , code của 2 người giống hệt nhau cũng chưa chắc đã được chấm nếu không giải thích được cách làm.
 
 ---
 
